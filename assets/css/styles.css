@@ -1,0 +1,17 @@
+#principal{
+    border: solid 1px black;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

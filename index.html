@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="principal">
+        <div class="titulo">
+            <hr/>
+            <h1>Conversor de Monedas Nacional</h1>
+            <hr/>
+        </div>
+
+      <div class="cuerpo">
+        
+        <p>Pesos CPL</p>
+        <input type="text" id="monto" placeholder="Ingrese el monto en CPL" />
+
+        <p>Moneda a Convertir:</p>
+        <select name="" id="moneda">
+          <option value="" selected>Seleccione moneda</option>
+          <option value="dolar">Dolar </option>
+          <option value="euro">Euro</option>
+          <option value="bitcoin"> Bitcoin</option>
+        </select>
+        <br>
+        <button id="convertir">Buscar</button>
+        <p id="resultado">...</p>
+      </div>
+    </div>
+
+    <h2>Histórico de los Últimos 10 Días:</h2>
+  <canvas id="graficoHistorial"></canvas>>
+
+    <script src="./assets/js/script.js"></script>
+</body>  
+</html>
